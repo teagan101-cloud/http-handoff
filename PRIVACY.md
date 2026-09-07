@@ -8,7 +8,9 @@ JetBrains operates Marketplace accounts, orders, payments and license activation
 
 If you contact support, the developer uses your message, contact details and voluntarily supplied diagnostic information to investigate and reply. Use synthetic examples and omit credentials and customer data. Support administration may use Google email and OpenAI-assisted drafting or troubleshooting; avoid sending sensitive source files. Only the information necessary for the issue should be processed.
 
-Support correspondence is retained while the issue is active and for up to twelve months after closure, unless needed to resolve an ongoing dispute or meet a legal obligation. Transaction records are retained for applicable accounting requirements. The plugin does not create a separate customer account or marketing mailing list.
+Optional workflow feedback is used to understand whether the plugin helps with one-time conversions or repeated handoffs. It may be administered through the same email and assisted tools as support. Do not include request contents, credentials or client identities. Providing feedback is not required to use the plugin; it does not enable export telemetry.
+
+Support correspondence is retained while the issue is active and for up to twelve months after closure, unless needed to resolve an ongoing dispute or meet a legal obligation. Optional workflow feedback is retained for up to twelve months after receipt under the same exceptions. Transaction records are retained for applicable accounting requirements. The plugin does not create a separate customer account or marketing mailing list.
 
 You may contact the developer through the support address on the Marketplace listing to request access, correction or deletion of support information, or to object to optional processing. Some transaction records may need to be retained. Contact JetBrains directly for Marketplace account and payment information it controls.
 

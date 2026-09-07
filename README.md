@@ -2,7 +2,7 @@
 
 Turn a folder of JetBrains `.http` requests into one Postman collection for a customer.
 
-Keep your API examples beside your code. When a customer needs Postman, select the request folder, review the conversion, and save a collection they can import. Each source file becomes a named folder in the collection.
+Keep your API examples beside your code. When a customer needs an updated Postman handoff, select the maintained request folder, review the conversion, and save a collection they can import. Each source file becomes a named folder in the collection.
 
 ## Use
 
@@ -49,6 +49,10 @@ Literal credential headers and sensitively named file variables are replaced wit
 Email teagan101@gmail.com with **HTTP Handoff** in the subject. Include your IDE version, plugin version, the diagnostic, expected behavior, and a small synthetic example that reproduces the problem. Do not send production tokens, private environment files or customer datasets.
 
 Billing, subscription cancellation and refunds are handled through JetBrains. HTTP Handoff support covers the documented conversion behavior; custom integrations and bespoke migration work are outside this product's scope.
+
+## Optional workflow feedback
+
+Is this a one-time migration, or do you maintain these requests for future Postman handoffs? Email teagan101@gmail.com with **HTTP Handoff feedback** in the subject if you would like to share the expected cadence. If you later export an updated collection from the same maintained requests, tell us roughly how long after the first export it was. No request files, credentials or client identities are needed. Feedback is optional; the plugin does not track your exports.
 
 ## Verification scope
 
