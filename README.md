@@ -14,7 +14,7 @@ Keep your API examples beside your code. When a customer needs Postman, select t
 6. Save to a new JSON filename. Existing exports are preserved.
 7. In Postman, choose **Import** and select the JSON file. Set missing environment variables, run the requests against an appropriate test system, and review the collection before sharing it.
 
-A Marketplace trial or license is required for the paid release. Version 1.0.0 is submitted to Marketplace for review as a hidden plugin. Public sales and trial activation are not available yet.
+A Marketplace trial or license is required for the paid release. Version 1.0.1 is submitted to Marketplace for review as a hidden plugin. Public sales and trial activation are not available yet.
 
 ## What converts
 
@@ -52,6 +52,8 @@ Billing, subscription cancellation and refunds are handled through JetBrains. HT
 
 ## Verification scope
 
-The 1.0.0 release archive's converter passed nine synthetic cases executed by Newman 6.2.2 against a local echo service. Eleven core and IntelliJ Platform tests cover source preservation, blocking incomplete exports, dialog state and synthetic licensing states. Plugin Verifier reports compatibility with IntelliJ IDEA 2026.1.4 (IU-261.26222.65). The complete interactive export and actual Marketplace trial activation remain pending. These checks are not evidence of customer adoption or a completed purchase.
+The 1.0.1 release archive's converter passed nine synthetic cases executed by Newman 6.2.2 against a local echo service. Eleven core and IntelliJ Platform tests cover source preservation, blocking incomplete exports, dialog state and synthetic licensing states. Plugin Verifier reports compatibility with IntelliJ IDEA 2026.1.4 (IU-261.26222.65). An installed UI test passed source selection, review, save, confirmation and saved-file verification using identical compiled classes in an isolated test package with test metadata and a synthetic licensing fixture. Actual Marketplace trial activation remains pending. These checks are not evidence of customer adoption or a completed purchase.
+
+Version 1.0.1 fixes a save-confirmation problem found during that UI test: the collection was written, but the review window could remain open with Save disabled. The repaired callback completes while the review dialog is open.
 
 HTTP Handoff is an independent product. JetBrains and Postman names identify the tools it works with; they do not imply endorsement.
