@@ -14,7 +14,7 @@ Keep your API examples beside your code. When a customer needs Postman, select t
 6. Save to a new JSON filename. Existing exports are preserved.
 7. In Postman, choose **Import** and select the JSON file. Set missing environment variables, run the requests against an appropriate test system, and review the collection before sharing it.
 
-A Marketplace trial or license is required for the paid release. This release candidate is not yet listed; a locally installed candidate cannot activate a Marketplace trial until the product is registered.
+A Marketplace trial or license is required for the paid release. Version 1.0.0 is submitted to Marketplace for review as a hidden plugin. Public sales and trial activation are not available yet.
 
 ## What converts
 
@@ -52,6 +52,6 @@ Billing, subscription cancellation and refunds are handled through JetBrains. HT
 
 ## Verification scope
 
-The development archive's converter passed nine synthetic cases executed by Newman 6.2.2 against a local echo service. IntelliJ Platform tests cover source preservation, blocking incomplete exports and dialog state. Compatibility of the development archive was checked against IntelliJ IDEA 2026.1.4 (IU-261.26222.65). These checks are not evidence of customer adoption or a completed purchase. Final installed interface and licensing checks are recorded with the release artifact.
+The 1.0.0 release archive's converter passed nine synthetic cases executed by Newman 6.2.2 against a local echo service. Eleven core and IntelliJ Platform tests cover source preservation, blocking incomplete exports, dialog state and synthetic licensing states. Plugin Verifier reports compatibility with IntelliJ IDEA 2026.1.4 (IU-261.26222.65). The complete interactive export and actual Marketplace trial activation remain pending. These checks are not evidence of customer adoption or a completed purchase.
 
 HTTP Handoff is an independent product. JetBrains and Postman names identify the tools it works with; they do not imply endorsement.
