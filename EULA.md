@@ -1,6 +1,6 @@
-# HTTP Handoff end user license agreement
+# HTTP Handoff JetBrains plugin end user license agreement
 
-7 September 2026. This agreement applies to HTTP Handoff supplied by Teagan Doherty (the Developer). Developer contact details are provided on the HTTP Handoff Marketplace vendor profile. JetBrains is the Marketplace operator and is not a party to this agreement or responsible for the Developer's plugin obligations.
+7 September 2026. This agreement applies to the HTTP Handoff JetBrains plugin supplied by Teagan Doherty (the Developer). Developer contact details are provided on the HTTP Handoff Marketplace vendor profile. JetBrains is the Marketplace operator and is not a party to this agreement or responsible for the Developer's plugin obligations.
 
 ## License
 

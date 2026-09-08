@@ -1,4 +1,4 @@
-# HTTP Handoff privacy notice
+# HTTP Handoff JetBrains plugin privacy notice
 
 7 September 2026. Developer contact details are provided on the HTTP Handoff Marketplace vendor profile.
 

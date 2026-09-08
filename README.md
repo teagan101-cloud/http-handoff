@@ -4,7 +4,15 @@ Turn a folder of JetBrains `.http` requests into one Postman collection for a cu
 
 Keep your API examples beside your code. When a customer needs an updated Postman handoff, select the maintained request folder, review the conversion, and save a collection they can import. Each source file becomes a named folder in the collection.
 
-## Use
+## Choose how to run
+
+**Hosted converter — available now:** [Run HTTP Handoff on Apify](https://apify.com/teagan101-cloud/http-to-postman-converter). Convert supplied `.http` and `.rest` files into one downloadable Postman Collection v2.1. The current price is **USD 0.05 per successfully saved collection, with hosting included**; [check current pricing](https://apify.com/teagan101-cloud/http-to-postman-converter/pricing).
+
+The hosted version accepts up to 200 named text files and 5 MiB total. Files are uploaded to and stored on Apify, so remove secrets before uploading. Default credential omission happens after upload and does not sanitize the stored input. It does not send your requests, execute source scripts, or watch your repository. For another handoff, supply updated file contents through the Console, API or CLI. See the Apify listing for its full limits, data handling, terms and Issues support route.
+
+**JetBrains plugin — under review:** version 1.0.1 is submitted as a hidden Marketplace plugin. Public plugin sales and 30-day trial activation are not available yet. The documentation below, [EULA](EULA.md) and [privacy notice](PRIVACY.md) describe the plugin, whose conversion runs locally. Apify usage is governed by the terms and data handling on its own listing.
+
+## Use the JetBrains plugin
 
 1. Save changes to your request files.
 2. Open **Tools → Export HTTP Folder to Postman…**, or use the same action in the Project view's context menu.
@@ -14,7 +22,7 @@ Keep your API examples beside your code. When a customer needs an updated Postma
 6. Save to a new JSON filename. Existing exports are preserved.
 7. In Postman, choose **Import** and select the JSON file. Set missing environment variables, run the requests against an appropriate test system, and review the collection before sharing it.
 
-A Marketplace trial or license is required for the paid release. Version 1.0.1 is submitted to Marketplace for review as a hidden plugin. Public sales and trial activation are not available yet.
+A Marketplace trial or license is required for the paid plugin release.
 
 ## What converts
 
